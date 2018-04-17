@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     
@@ -18,11 +17,8 @@
         <td><a href="./videos.html">VIDEOS</a></td>
         </tr>
     </table>
-        <img src="IMG_1075.JPG" alt="me flowing in the cold wind after graduation" width="200">
-     <svg width="100" height="100">
-  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="6" fill="red" />
-         <text fill="#ffffff" font-size="35" font-family="Verdana" x="15" y="60">KLR</text>
-</svg>
+        <img src="IMG_1075.JPG" alt="me flowing in the cold wind after graduation" style="width:300px;height:500px">
+     
      
      <h1>ABOUT ME</h1>
         
@@ -37,25 +33,26 @@ var ctx = c.getContext("2d");
 ctx.font = "30px Arial";
 ctx.strokeText("DOGS ARE AWESOME!",10,50);
 </script>
-          <p>I am currently a full-time college student at Florida Gulf Coast University, this is my first year attending this college and it has been enjoyable so far. I am mainly a cheerful and positive person and like to joke around. Laughter is needed in life and if it wasn't, I would not know what to do with myself. I am a dog person at heart and I will always be one. Dogs are the most loving companions that anyone could have. Dogs are just always happy and so pure. Cats are not so pure. The major I am going for is Software Engineering. I chose this major because I was always interested in programming and coding. I took some engineering classes in high school, they were very informative but barely touch the subject of programing and coding. I may not be as experienced as some others going into this major, but I won't let that stop me from continuing on this journey</p>
-        <img src= "IMG_0523.jpg" alt="me & my dog"/> 
-       <object width="400" height="400" data="Field Report.pdf"></object>   
         
-              <h1>HOBBIES</h1>
+         <p>I am currently a full-time college student at Florida Gulf Coast University, this is my first year attending this college and it has been enjoyable so far. I am mainly a cheerful and positive person and like to joke around. Laughter is needed in life and if it wasn't, I would not know what to do with myself. I am a dog person at heart and I will always be one. Dogs are the most loving companions that anyone could have. Dogs are just always happy and so pure. Cats are not so pure. The major I am going for is Software Engineering. I chose this major because I was always interested in programming and coding. I took some engineering classes in high school, they were very informative but barely touch the subject of programing and coding. I may not be as experienced as some others going into this major, but I won't let that stop me from continuing on this journey</p>
+        <img src= "IMG_0523.jpg" alt="me & my dog" style="width:550px;height:550px"/> 
+         
+        
+     <h1>HOBBIES</h1>
+        
         <p>I have always been a hands-on kind of a person. I used to draw sketches a lot when I was younger but now I do not do it as often. However, I like to design and imagine as I did as I was younger. I used to spray paint patterns and designs on items of mine that I felt were too plain. I was fortunate to have older gentleman to teach me the skills of woodworking. I worked with him for almost 2 years. From the time spent working and learning the trade of woodworking, I gained inspiration for the future to design guitars or basses from old and abandon wood.
         </p>
+        <img src="IMG_2484.jpg" alt="a custom guitar. a friend painted it" style="width:500px;height:550px"/>
       
-      <img src="IMG_2484.jpg" alt="a custom guitar. a friend painted it"/>
-      
-    <h2>
-        <object align="left">
-          <p>Just for fun, here are sound dogs howling.</p>
-<audio controls>
-  <source src="dogs howling.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-        </object>
-    </h2>
+      <h2>
+          <object align="left">
+           <p>Just for fun, here are sound dogs howling.</p>
+            <audio controls>
+                <source src="dogs howling.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+          </object>
+      </h2>
         
        <canvas id="myCanvas" width="200" height="100" style="border: 1px soild #d3d3d3;">Your browser does not support the HTML5 canvas tag.</canvas>
         
@@ -63,6 +60,8 @@ Your browser does not support the audio element.
   
     <p>After graduation, I plan on finding a job as soon as possible. Once I do, I can start saving up for future expenses, such as a place of my own. I also want to give back to my parents for helping with so much by giving a portion of my income to them. When I do get a place of my own, I would like also get myself a dog to keep me company. On the side I will like to start marking guitars and basses as a hobby and if possible try to make money off of it.
   </p>
+      <h1> Field Report</h1>
+        <object width="400" height="550" data="Field Report.pdf"></object> 
 
 
         
@@ -73,6 +72,10 @@ Your browser does not support the audio element.
           <iframe width="520" height="445" src= "https://www.youtube.com/embed/PNpxtl8KReg"></iframe>
         </object>
         
+        <svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="6" fill="red" />
+         <text fill="#ffffff" font-size="35" font-family="Verdana" x="15" y="60">KLR</text>
+</svg>
         
         
     </body>
