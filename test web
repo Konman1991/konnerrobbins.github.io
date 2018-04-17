@@ -24,7 +24,7 @@
 </svg>
      
      <h1>ABOUT ME</h1>
-        <canvas id="myCanvas" width="200" height="100" style="border: 1px soild #d3d3d3;">Your browser does not support the HTML5 canvas tag.</canvas>
+        
 <script>
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
@@ -46,29 +46,24 @@ ctx.strokeText("DOGS ARE AWESOME!",10,50);
       
       <img src="IMG_2484.jpg" alt="a custom guitar. a friend painted it"/>
       
-      <h2>
-        
+    <h2>
         <object align="left">
           <p>Just for fun, here are sound dogs howling.</p>
-
 <audio controls>
   <source src="dogs howling.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
         </object>
-      </h2>
-       
+    </h2>
+        
+       <canvas id="myCanvas" width="200" height="100" style="border: 1px soild #d3d3d3;">Your browser does not support the HTML5 canvas tag.</canvas>
+        
           <h1>LIFE GOALS</h1>
   
     <p>After graduation, I plan on finding a job as soon as possible. Once I do, I can start saving up for future expenses, such as a place of my own. I also want to give back to my parents for helping with so much by giving a portion of my income to them. When I do get a place of my own, I would like also get myself a dog to keep me company. On the side I will like to start marking guitars and basses as a hobby and if possible try to make money off of it.
   </p>
-  <canvas id="lifeGoals" widht="200" height="100" style="border: 1px solid #d3d3d3;"> </canvas>
-  <script>
-  var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.font = "30px Arial";
-ctx.strokeText("Hello World", 10, 50);
-  </script> 
+
+
         
                 <h1>VIDEOS</h1>
         
@@ -76,6 +71,8 @@ ctx.strokeText("Hello World", 10, 50);
       <object align="center">
     <iframe width="520" height="445" src= "https://www.youtube.com/embed/PNpxtl8KReg"</iframe>
 </object>
+        
+        >
         
     </body>
 </html>
